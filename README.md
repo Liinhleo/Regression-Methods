@@ -1,6 +1,6 @@
 # Regression-Methods
 ## Methods
 ### Simple Linear Regression
-### Polinomial Linear Regression
+### Polynomial Linear Regression
 ### Multiple Linear Regression
 ### Logistic Regression
