@@ -6,7 +6,6 @@ from sklearn.linear_model import LinearRegression
 
 #read dataset
 dataset=pd.read_csv("Salary_Data.csv")
-print(dataset.shape)
 
 # Split dataset to input X and outcome Y
 X=np.array(dataset.iloc[:,0].values).reshape(-1,1)
