@@ -5,8 +5,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 
 # Read dataset
-datatrain=pd.read_csv("Train.csv")
-datatest=pd.read_csv("Test.csv")
+datatrain=pd.read_csv("BostonTrain.csv")
+datatest=pd.read_csv("BostonTest.csv")
 
 for i in range(13):
     # Split dataset to input X and outcome Y
